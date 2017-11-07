@@ -1,24 +1,15 @@
-# README
+# User Services
+A JSON service for a Netflix-like DVD rental company to manage users.  This service is preloaded with 1000 fake users.  It is meant to be used for [Movie Queue Services](https://github.com/edithau/movie_queue_services) testing
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+## Installation Prerequisites
+- Ruby 2.4
+- Rails 5
 
-* System dependencies
+## Installation Steps
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Download and install [User Services](https://github.com/edithau/user_services)
+2. bundle install
+3. bin/rails db:migrate
+4. rails s -p 3001
